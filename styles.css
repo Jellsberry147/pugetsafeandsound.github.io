@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  color: aliceblue;
+}
+h2 {
+  color: aliceblue;
+}
+
+p {
+  color: darkgrey;
+}
+
+ul {
+  text-align: center;
+  font-size: large;
+}
+
+li {
+  text-align: left;
+}
+
+img {
+  width: 10%;
+}
+
+.content {
+  color: red;
+  font-size: large;
+}
+
+.marbleDisplay {
+  display: flex;
+  background: darkslategrey;
+  margin: auto;
+  padding: 2%;
+}
+
+.listContent {
+  background: rgb(28, 48, 48);
+  color: aliceblue;
+  box-shadow: 2px 2px black;
+  border: 1px;
+  width: 50%;
+  margin: auto;
+  padding: 2%;
+}
