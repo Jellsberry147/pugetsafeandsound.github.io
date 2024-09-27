@@ -1,17 +1,12 @@
 body {
-  margin: 0;
+  margin: 0rem 4rem 4rem 0rem;
   font-family: Arial, Helvetica, sans-serif;
+  background-color: #c5f4e0;
 }
 
 h1 {
-  color: aliceblue;
 }
 h2 {
-  color: aliceblue;
-}
-
-p {
-  color: darkgrey;
 }
 
 ul {
@@ -24,27 +19,40 @@ li {
 }
 
 img {
-  width: 10%;
+  float: right;
+  border-radius: 2rem;
+}
+
+.intro {
+  background-color: #8f8389;
+  color: #c5f4e0;
+  box-shadow: 2px 2px 4px 4px black;
+  border: 1px;
+  border-radius: 1rem;
+  width: 80%;
+  margin: auto;
+  padding: 2%;
+  text-shadow: 2px 2px 20px black;
+}
+
+.owner_product {
+  max-width: 25%;
+  height: auto;
+  padding: 1rem;
+  margin-left: 3rem;
+  margin-right: 0rem;
 }
 
 .content {
-  color: red;
   font-size: large;
-}
-
-.marbleDisplay {
-  display: flex;
-  background: darkslategrey;
-  margin: auto;
-  padding: 2%;
+  outline: #e6efe9;
+  color: #8f8389;
 }
 
 .listContent {
-  background: rgb(28, 48, 48);
-  color: aliceblue;
-  box-shadow: 2px 2px black;
-  border: 1px;
+  background-color: #8f8389;
+  color: #c5f4e0;
+  box-shadow: 2px 2px 3px 3px black;
   width: 50%;
-  margin: auto;
-  padding: 2%;
+  padding: 1rem;
 }
